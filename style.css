@@ -41,6 +41,9 @@
 .ali-end{
     align-items: flex-end;
 }
+.d-flex{
+    display:flex;
+}
 .d-none{
     display: none;
 }
@@ -50,7 +53,17 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.mh-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Weight / Height */
+.height1180{
+    height: 1180px; 
+}
+.height840{
+    height: 840px;
+}
 /* Tags */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -186,7 +199,7 @@ body{
 }
     /* content */
 .content{
-    height: 1180px;
+    /* height: 1180px; */
     border-radius: 10px;
     /* border: 1px solid blue; */
     padding: 30px;
@@ -241,11 +254,6 @@ li {
 .clients{
     width: 200px;
     height: 200px;
-    /* max-width: 200px;
-    min-width: 200px;
-    max-height: 200px;
-    min-height: 200px; */
-    /* border: 3px solid  blue; */
     background-color: #eee;
     box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
     border-radius: 10px;
@@ -264,4 +272,33 @@ li {
 }
 hr{
     margin-bottom:8px;
+}
+
+/* Work */ 
+.card{
+    width: 252px;
+    height: 360px;
+    border: 1px solid blue;
+    border-radius:5px;
+    background-color: rgb(232, 240, 237);
+    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    padding: 20px;
+}
+.cardimg{
+    width:240px;
+    height:160px;
+    border: 1px solid blue;
+    border-radius:5px;
+    overflow: hidden;
+}
+
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+    object-fit: cover;
+
+}
+.cardimg img:hover{
+    transform: scale(1.1);
 }
