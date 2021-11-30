@@ -26,6 +26,9 @@
 .just-end{
     justify-content: end;
 }
+.just-start{
+    justify-content: flex-start;
+}
 .space-evenly{
     justify-content: space-evenly;
 }
@@ -44,7 +47,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 
 /* Tags */
 body{
@@ -72,6 +74,7 @@ body{
     top: 270px;
     left: 10%;
 }
+/* HEADER */
 .header{
     height: 240px;
     min-width: 90%;
@@ -82,7 +85,7 @@ body{
     border-radius: 10px;
 }
 .header-left{
-    max-width: 60%;
+    min-width: 53%;
     padding: 10px;
     /* border-radius: 5px;
     border: 5px solid #eee; */
@@ -98,7 +101,8 @@ body{
 }
 .headerabout{
     padding-left: 40px;
-    padding-right: 10px;
+    padding-right: 40px;
+    width: 90%;
     border-right: solid 3px #eee;
 }
 .headerabout h3{
@@ -110,16 +114,32 @@ body{
     background-color: rgb(200, 223, 215);
     padding: 4px;
     margin: 3px;
+    margin-right: 10px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 5px;
+    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
 }
 .icondiv:hover {
     transform: scale(1.1);
     background-color: rgb(219, 53, 53);
+    position: relative;
+    top: -5px;
 }
 .headerabout i{
     font-size: 32px;
 }
+.header-right{
+    padding: 20px;
+    padding-top: 40px;
+}
+.header-right h4{
+    color: #beb5b5;
+    margin-bottom: 0;
+}
+.header-right h3{
+    margin-top: 0;
+}
+
 .main{
     height: 700px;
     min-width: 90%;
