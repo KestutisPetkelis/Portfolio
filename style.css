@@ -1,3 +1,4 @@
+/* *** Flex, display *** */
 .d-flex{
     display: flex;
 }
@@ -30,4 +31,25 @@
 }
 .d-none{
     display: none;
+}
+
+/* Classes */
+
+.top{
+    height: 340px;
+    border: 1px solid blue;
+}
+.bottom{
+    height: 600px;
+    border: 1px solid blue;
+}
+.header{
+    height: 200px;
+    min-width: 80%;
+    border: 1px solid blue;
+}
+.main{
+    height: 700px;
+    min-width: 80%;
+    border: 1px solid blue;
 }
