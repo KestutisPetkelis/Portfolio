@@ -1,0 +1,33 @@
+.d-flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.f-row{
+    flex-direction: row;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-grow{
+    flex-grow: 4;
+}
+.just-center{
+    justify-content: center;
+}
+.just-between{
+    justify-content: space-between;
+}
+.just-end{
+    justify-content: end;
+}
+.ali-center{
+    align-items: center;
+}
+.ali-end{
+    align-items: flex-end;
+}
+.d-none{
+    display: none;
+}
