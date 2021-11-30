@@ -14,6 +14,9 @@
 .f-grow{
     flex-grow: 4;
 }
+.flex1{
+    flex: 1;
+}
 .just-center{
     justify-content: center;
 }
@@ -22,6 +25,9 @@
 }
 .just-end{
     justify-content: end;
+}
+.space-evenly{
+    justify-content: space-evenly;
 }
 .ali-center{
     align-items: center;
@@ -32,24 +38,90 @@
 .d-none{
     display: none;
 }
+/* Padding Margin */
 
+.pv-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Tags */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Classes */
 
 .top{
     height: 340px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    background-image: url(https://www.engie.com/sites/default/files/assets/images/2021-02/Header_industrie.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .bottom{
-    height: 600px;
+    height: 800px;
     border: 1px solid blue;
+    background-color: #eee;
+}
+.container{
+    height: 900px;
+    min-width: 80%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 270px;
+    left: 10%;
 }
 .header{
-    height: 200px;
-    min-width: 80%;
+    height: 240px;
+    min-width: 90%;
+    width: 700px;
     border: 1px solid blue;
+    background-color: rgb(250, 248, 245);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.header-left{
+    max-width: 60%;
+    padding: 10px;
+    /* border-radius: 5px;
+    border: 5px solid #eee; */
+}
+.headerimg{
+    height: 80%;
+    object-fit: contain;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    border: 5px solid #eee;
+}
+.headerabout{
+    padding-left: 40px;
+    padding-right: 10px;
+    border-right: solid 3px #eee;
+}
+.headerabout h3{
+    color: #beb5b5;
+}
+.icondiv{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(200, 223, 215);
+    padding: 4px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 3px;
+}
+.icondiv:hover {
+    transform: scale(1.1);
+    background-color: rgb(219, 53, 53);
+}
+.headerabout i{
+    font-size: 32px;
 }
 .main{
     height: 700px;
-    min-width: 80%;
+    min-width: 90%;
     border: 1px solid blue;
 }
