@@ -17,6 +17,9 @@
 .flex1{
     flex: 1;
 }
+.flex4{
+    flex:4;
+}
 .just-center{
     justify-content: center;
 }
@@ -77,9 +80,9 @@ body{
 /* HEADER */
 .header{
     height: 240px;
-    min-width: 90%;
+    min-width: 1200px;
     width: 700px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: rgb(250, 248, 245);
     margin-bottom: 30px;
     border-radius: 10px;
@@ -105,7 +108,7 @@ body{
     width: 90%;
     border-right: solid 3px #eee;
 }
-.headerabout h3{
+.greycolor{
     color: #beb5b5;
 }
 .icondiv{
@@ -118,12 +121,16 @@ body{
     text-align: center;
     border-radius: 5px;
     box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    cursor: pointer;
+    transition: 1s ;
+    
 }
-.icondiv:hover {
-    transform: scale(1.1);
-    background-color: rgb(219, 53, 53);
+.icondiv:hover, .downloadCV:hover {
+    /* transform: scale(1.1); */
+    background-color: #FF014F;
     position: relative;
     top: -5px;
+    color: white;
 }
 .headerabout i{
     font-size: 32px;
@@ -140,8 +147,75 @@ body{
     margin-top: 0;
 }
 
+/* MAIN */
 .main{
     height: 700px;
-    min-width: 90%;
+    width: 1200px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}
+    /* aside */
+.aside{
+    height: 400px;
+    width: 160px;
+    padding: 10px;
     border: 1px solid blue;
+    border-radius: 10px;
+    margin-right: 32px;
+    background-color: rgb(250, 248, 245);
+}
+
+.asidediv{
+    width: 80%;
+    height: 80px;
+    /* border: 1px solid blue; */
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.asidediv:hover{
+    background-color:  #FF014F;
+    color: white;
+}
+    /* content */
+.content{
+    height:auto;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 30px;
+    background-color: rgb(250, 248, 245);
+}
+.photo{
+    min-width: 300px;
+    height: 460px;
+    background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2805779.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.aboutme{
+    padding: 40px;
+}
+li {
+    list-style-type: "\2713";
+    font-size: 24px;
+}
+.downloadCV{
+   width: 160px; 
+   height: 24px;
+   /* border:1px solid blue; */
+   font-weight: 500;
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+   background-color: rgb(200, 223, 215);
+   cursor: pointer;
+   transition: 1s ;
+
 }
