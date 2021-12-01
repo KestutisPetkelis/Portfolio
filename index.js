@@ -6,6 +6,10 @@ const main = document.querySelector(".main")
 const content = document.querySelectorAll(".content")
 let indexContent 
 
+const card = document.querySelectorAll(".card")
+const modal = document.querySelector(".modal")
+const modalexit = document.querySelector(".modalexit")
+
 const button = document.querySelector("button")
 
 const greyColor = document.querySelectorAll(".greycolor")
@@ -84,3 +88,10 @@ button.onclick = () =>{
     }
     lightColor = !lightColor
 }
+
+card.forEach(x =>{
+    x.onclick = () =>{
+        modal.style.display = "flex"
+        modalexit.onclick = () => modal.style.display = "none"
+    }
+})
