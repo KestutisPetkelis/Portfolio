@@ -41,9 +41,6 @@
 .ali-end{
     align-items: flex-end;
 }
-.d-flex{
-    display:flex;
-}
 .d-none{
     display: none;
 }
@@ -67,6 +64,9 @@
 /* Tags */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
 }
 /* Classes */
 
@@ -272,6 +272,87 @@ li {
 }
 hr{
     margin-bottom:8px;
+}
+/* Resume */
+.rescard{
+    width: 390px;
+    height: 320px;
+    /* border: 1px solid blue; */
+    border-radius:5px;
+    background-color: rgb(232, 240, 237);
+    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.rescard:hover{
+    background-color: #FF014F;
+    color:white;
+}
+.rescard:hover .rescardlittle{
+    background-color: #d30945;
+    box-shadow: none;
+
+}
+.rescardlittle{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    padding: 14px;
+    margin-left: 20px;
+}
+
+.bordertopgrey{
+    border-top:  solid 3px #beb5b5 ;
+}
+    /* Features with Sliders */
+.features{
+    width: 390px;
+    height: 380px;
+    /* border: 1px solid blue;  */
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.features span{
+    font-size: 12px;
+}
+.sliderbox{
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    /* border:1px solid blue; */
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: rgb(232, 240, 237);
+}
+.slider{
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffffff 0%, #990000 100%);
+}
+.slider85{
+    width: 85%;
+}
+.slider95{
+    width: 95%;
+}
+.slider60{
+    width: 60%;
+}
+.slider70{
+    width: 70%;
+}
+.slider90{
+    width: 90%;
+}
+.slider80{
+    width: 80%;
+}
+.slider75{
+    width: 75%;
 }
 
 /* Work */ 
