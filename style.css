@@ -69,6 +69,86 @@ body{
 p{
     font-size: 20px;
 }
+button{
+    cursor: pointer;
+}
+/* COLORS */
+.greycolor{
+    color: #beb5b5;
+}
+.d-greycolor{
+    color: red;
+}
+.colorwhite{
+    color:white;
+}
+.d-colorwhite{
+    color:black;
+}
+.colorblack{
+    color: black;
+}
+.d-colorblack{
+    color:white;
+}
+/* BACKGROUND COLORS */
+.bcolorwhite{
+    background-color: white;
+}
+.d-bcolorwhite{
+    background-color: black;
+}
+.bcolorwht{
+    background-color: rgb(250, 248, 245);
+}
+.d-bcolorwht{
+    background-color:rgb(54, 39, 15);
+}
+.bcoloreee{
+    background-color: #eee;
+}
+.d-bcoloreee{
+    background-color: rgb(83, 3, 3);
+}
+.bcoloricon{
+    background-color: rgb(200, 223, 215);
+}
+.d-bcoloricon{
+    background-color: rgb(25, 87, 65);
+}
+.bcolordarkgr{
+    background-color: rgb(232, 240, 237);
+}
+.d-bcolordarkgr{
+    background-color: rgb(6, 51, 34);
+}
+/* SHADOW */
+
+.boxshadow{
+    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+}
+.d-boxshadow{
+    box-shadow: rgb(16, 80, 59) 5px 5px 8px 5px;
+}
+/* COLOR BORDERS */
+.bordertopgrey{
+    border-top:  solid 3px #beb5b5 ;
+}
+.d-bordertopgrey{
+    border-top:  solid 3px #7c0606 ;
+}
+.bordercoloreee{
+    border: 5px solid  #eee;
+}
+.d-bordercoloreee{
+    border: 5px solid  rgb(83, 3, 3);
+}
+.borderRcoloreee{
+    border-right: solid 3px #eee;
+}
+.d-borderRcoloreee{
+    border-right: solid 3px rgb(83, 3, 3);
+}
 /* Classes */
 
 .top{
@@ -77,11 +157,12 @@ p{
     background-image: url(https://www.engie.com/sites/default/files/assets/images/2021-02/Header_industrie.jpg);
     background-size: cover;
     background-position: center;
+    padding: 10px;
 }
 .bottom{
     height: 1800px;
-    border: 1px solid blue;
-    background-color: #eee;
+    /* border: 1px solid blue; */
+    /* background-color: #eee; */
 }
 .container{
     height: 900px;
@@ -97,7 +178,7 @@ p{
     min-width: 1200px;
     width: 700px;
     /* border: 1px solid blue; */
-    background-color: rgb(250, 248, 245);
+    /* background-color: rgb(250, 248, 245); */
     margin-bottom: 30px;
     border-radius: 10px;
 }
@@ -114,27 +195,25 @@ p{
     position: relative;
     top: -40px;
     left: 30px;
-    border: 5px solid #eee;
+    /* border: 5px solid #eee; */
 }
 .headerabout{
     padding-left: 40px;
     padding-right: 40px;
     width: 90%;
-    border-right: solid 3px #eee;
+    
 }
-.greycolor{
-    color: #beb5b5;
-}
+
 .icondiv{
     width: 36px;
     height: 36px;
-    background-color: rgb(200, 223, 215);
+    /* background-color: rgb(200, 223, 215); */
     padding: 4px;
     margin: 3px;
     margin-right: 10px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     cursor: pointer;
     transition: 1s ;
     
@@ -154,7 +233,7 @@ p{
     padding-top: 40px;
 }
 .header-right h4{
-    color: #beb5b5;
+    
     margin-bottom: 0;
 }
 .header-right h3{
@@ -176,7 +255,7 @@ p{
     /* border: 1px solid blue; */
     border-radius: 10px;
     margin-right: 32px;
-    background-color: rgb(250, 248, 245);
+    /* background-color: rgb(250, 248, 245); */
     position: sticky;
     top: 0;
     left: 0;
@@ -204,7 +283,7 @@ p{
     border-radius: 10px;
     /* border: 1px solid blue; */
     padding: 30px;
-    background-color: rgb(250, 248, 245);
+    /* background-color: rgb(250, 248, 245); */
 }
 .photo{
     min-width: 300px;
@@ -230,8 +309,8 @@ li {
    padding: 20px;
    text-align: center;
    border-radius: 10px;
-   box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
-   background-color: rgb(200, 223, 215);
+   /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
+   /* background-color: rgb(200, 223, 215); */
    cursor: pointer;
    transition: 1s ;
 
@@ -240,7 +319,7 @@ li {
 .doingcard{
     width: 44%;
     height: 300px;
-    border: 3px solid  #eee;
+    /* border: 3px solid  #eee; */
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -255,8 +334,8 @@ li {
 .clients{
     width: 200px;
     height: 200px;
-    background-color: #eee;
-    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    /* background-color: #eee; */
+    /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     border-radius: 10px;
     font-family: 'Birthstone Bounce', cursive;
     font-size: 40px;
@@ -280,8 +359,8 @@ hr{
     height: 320px;
     /* border: 1px solid blue; */
     border-radius:5px;
-    background-color: rgb(232, 240, 237);
-    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    /* background-color: rgb(232, 240, 237); */
+    /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     padding: 20px;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -299,15 +378,13 @@ hr{
     width: 50px;
     height: 20px;
     border-radius: 5px;
-    background-color: white;
-    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    /* background-color: white; */
+    /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     padding: 14px;
     margin-left: 20px;
 }
 
-.bordertopgrey{
-    border-top:  solid 3px #beb5b5 ;
-}
+
     /* Features with Sliders */
 .features{
     width: 390px;
@@ -327,7 +404,7 @@ hr{
     /* border:1px solid blue; */
     margin-bottom: 20px;
     margin-top: 5px;
-    background-color: rgb(232, 240, 237);
+    /* background-color: rgb(232, 240, 237); */
 }
 .slider{
     height: 10px;
@@ -362,8 +439,8 @@ hr{
     height: 360px;
     /* border: 1px solid blue; */
     border-radius:5px;
-    background-color: rgb(232, 240, 237);
-    box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px;
+    /* background-color: rgb(232, 240, 237); */
+    /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     padding: 20px;
     cursor: pointer;
 }
