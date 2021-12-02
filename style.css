@@ -1,3 +1,4 @@
+/* Portfolio 12 02 */
 /* *** Flex, display *** */
 .d-flex{
     display: flex;
@@ -46,20 +47,13 @@
 }
 /* Padding Margin */
 
-.pv-20{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.mh-20{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 /* Weight / Height */
 .height1180{
-    height: 1180px; 
+    height: auto; 
 }
 .height840{
-    height: 840px;
+    height: auto;
 }
 
 /* Tags */
@@ -162,10 +156,11 @@ button{
     background-size: cover;
     background-position: center;
     padding: 10px;
-    margin-top: -30px;
+    
 }
 .bottom{
-    height: 1800px;
+    height: 2000px;
+    width: 100%;
     /* border: 1px solid blue; */
     /* background-color: #eee; */
 }
@@ -189,6 +184,7 @@ button{
 }
 .header-left{
     min-width: 53%;
+    height: 93%;
     padding: 10px;
     /* border-radius: 5px;
     border: 5px solid #eee; */
@@ -224,7 +220,7 @@ button{
     
 }
 .icondiv:hover, .downloadCV:hover {
-    /* transform: scale(1.1); */
+    
     background-color: #FF014F;
     position: relative;
     top: -5px;
@@ -236,6 +232,12 @@ button{
 .header-right{
     padding: 20px;
     padding-top: 40px;
+    min-width: 40%;
+    
+}
+.header-right div{
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
 }
 .header-right h4{
     
@@ -243,12 +245,14 @@ button{
 }
 .header-right h3{
     margin-top: 0;
+    
 }
 
 /* MAIN */
 .main{
-    height: 1600px;
+    height: auto;
     width: 1200px;
+    
     /* border: 1px solid blue; */
     border-radius: 10px;
 }
@@ -307,8 +311,9 @@ li {
     font-size: 24px;
 }
 .downloadCV{
-   width: 160px; 
-   height: 24px;
+   width: 180px; 
+   height: 30px;
+   font-size: 18px;
    /* border:1px solid blue; */
    font-weight: 500;
    padding: 20px;
@@ -448,6 +453,7 @@ hr{
     /* box-shadow: rgb(187, 202, 197) 5px 5px 8px 5px; */
     padding: 20px;
     cursor: pointer;
+    margin: 20px;
 }
 
 .cardimg{
@@ -481,6 +487,15 @@ hr{
     width: 460px;
     height: 600px;
 }
+.card2{
+    height: 600px;
+}
+.card1 span{
+    font-size: 14px;
+}
+.card1 i{
+    font-size: 32px;
+}
 .nopointer{
     cursor: default;
 }
@@ -496,6 +511,13 @@ input{
     border: none;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.input-size{
+    width:447px;
+}
+.input-area{
+    width:447px;
+    height: 120px;
 }
 textarea{
     border-radius: 5px;
@@ -545,6 +567,8 @@ textarea{
     top: 5px;
     right: 5px;
     cursor: pointer;
-    /* z-index: 2; */
+    
     text-align: center;
 }
+
+

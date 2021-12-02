@@ -27,6 +27,7 @@ const boxShadow = document.querySelectorAll(".boxshadow")
 const borderTopGrey = document.querySelectorAll(".bordertopgrey")
 const borderColorEee = document.querySelectorAll(".bordercoloreee")
 const borderRcolorEee = document.querySelectorAll(".borderRcoloreee")
+const lBorderLcolorEee = document.querySelectorAll(".l-borderLcoloreee")
 
 let lightColor = true
 
@@ -69,6 +70,7 @@ button.onclick = () =>{
         borderTopGrey.forEach(x => x.classList.add("d-bordertopgrey"))
         borderColorEee.forEach(x => x.classList.add("d-bordercoloreee"))
         borderRcolorEee.forEach(x => x.classList.add("d-borderRcoloreee"))
+        lBorderLcolorEee.forEach(x => x.classList.add("d-l-borderLcoloreee"))
     } else{
         greyColor.forEach(x => x.classList.remove("d-greycolor"))
         colorWhite.forEach(x => x.classList.remove("d-colorwhite"))
@@ -85,6 +87,7 @@ button.onclick = () =>{
         borderTopGrey.forEach(x => x.classList.remove("d-bordertopgrey"))
         borderColorEee.forEach(x => x.classList.remove("d-bordercoloreee"))
         borderRcolorEee.forEach(x => x.classList.remove("d-borderRcoloreee"))
+        lBorderLcolorEee.forEach(x => x.classList.remove("d-l-borderLcoloreee"))
     }
     lightColor = !lightColor
 }

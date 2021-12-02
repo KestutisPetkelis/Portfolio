@@ -1,0 +1,186 @@
+@media  (max-width:1200px){
+    
+    .l-f-wrap{
+        flex-wrap: wrap;
+    }
+    .l-just-evenly{
+        justify-content: space-evenly;
+    }
+    .l-ali-center{
+        align-items: center;
+    }
+    .l-ali-start{
+        align-items: flex-start;
+    }
+    /* header */
+    .l-d-block{
+        display: block;
+    }
+    .l-header{
+        height: 380px;
+        width: 400px;
+        min-width: 768px;
+        padding: 10px;
+            
+    }
+    .l-header h1{
+        margin-top: 5px;
+    }
+    .l-img{
+        height:200px;
+        width: 300px;
+    }
+    .l-headerabout{
+    padding-left: 40px;
+    
+    }
+    .l-bordernone{
+        border: none;
+    }
+    .l-borderLcoloreee{
+        border-left: solid 3px #eee;
+    }
+    .d-l-borderLcoloreee{
+        border-left: solid 3px rgb(83, 3, 3);
+    }
+
+    /* main, aside */
+    .l-main{
+        height: auto;
+        width: 768px;
+        
+        /* border: 1px solid blue; */
+        border-radius: 10px;
+        padding:10px;
+        margin-left: -20px;
+    }
+        /* aside */
+    .l-aside{
+        height: 400px;
+        max-width: 110px;
+        min-width: 110px;
+        padding: 10px;
+        /* border: 1px solid blue; */
+        border-radius: 10px;
+        margin-right: 32px;
+        /* background-color: rgb(250, 248, 245); */
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    
+    .l-asidediv{
+        width: 80%;
+        height: 50px;
+        /* border: 1px solid blue; */
+        margin: 5px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 0 10px;
+        padding-top: 25px;
+        cursor: pointer;
+        font-size: 18px;
+    
+    }
+    .l-asidediv:hover{
+        background-color:  #FF014F;
+        color: white;
+    }
+
+    /* about */
+
+    .l-content{
+        
+        border-radius: 10px;
+        min-width: 570px;
+        max-width: 570px;
+        /* border: 1px solid blue; */
+        padding: 30px;
+        /* background-color: rgb(250, 248, 245); */
+    }
+    .l-photo{
+        min-width: 200px;
+        height: 320px;
+    }
+    .l-doingcard{
+        width: 40%;
+        height: 280px;
+    }
+    .l-clients{
+        margin-bottom: 20px;
+    }
+
+    /* Resume */
+
+    .l-rescard{
+        width: 240px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+    .l-rescardlittle{
+        margin: 0;
+        margin-right: 5px;
+    }
+    .l-features{
+        width: 215px;
+        
+    }
+
+    /* work, blog */
+
+    .l-card, .l-card1{
+        width: 220px;
+        height: 300px;
+        margin: 10px;
+    }
+    
+    .l-cardimg{
+       
+        height:140px;
+        
+    }
+    /* contact */
+    .l-card1{
+        height: auto;
+    }
+    .l-cardmessage{
+        width: 260px;
+        height: 620px;
+    }
+    .l-input-size{
+        width:210px;
+    }
+    .l-input-area{
+        width:210px;
+        height: 100px;
+    }
+    .l-card2{
+        width: 220px;
+        height: 634px;
+        margin: 10px; 
+    }
+    
+}
+
+
+@media  (max-width:992px){
+
+    /* body{
+        display:none;
+    } */
+}
+
+@media  (max-width:768px){
+
+    /* body{
+        display:none;
+    } */
+}
+@media  (max-width:570px){
+
+    body{
+        display:none;
+    }
+}
