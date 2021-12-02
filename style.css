@@ -439,7 +439,7 @@ hr{
 }
 
 /* Work & blog*/ 
-.card{
+.card, .card1{
     width: 252px;
     height: 360px;
     /* border: 1px solid blue; */
