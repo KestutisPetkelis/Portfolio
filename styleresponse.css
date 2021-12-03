@@ -162,22 +162,23 @@
         margin: 10px; 
     }
     
-}
-/* modal */
 
-.modalcontent{
-    width: 800px;
-    height: 350px;
+    /* modal */
+
+    .modalcontent{
+         width: 800px;
+         height: 350px;
     
-}
-.l-modaltext{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-right: 10px;
-    overflow-wrap: break-word;
-}
+    }
+    .l-modaltext{
+        padding-left: 20px;
+        padding-top: 10px;
+         padding-right: 10px;
+         overflow-wrap: break-word;
+    }
 .p{
     font-size: 12px;
+}
 }
 
 @media  (max-width:992px){
