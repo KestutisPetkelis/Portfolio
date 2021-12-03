@@ -59,6 +59,7 @@
 /* Tags */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -25px;
 }
 p{
     font-size: 20px;
@@ -445,7 +446,7 @@ hr{
 
 /* Work & blog*/ 
 .card, .card1{
-    width: 252px;
+    width: 228px;
     height: 360px;
     /* border: 1px solid blue; */
     border-radius:5px;
@@ -554,6 +555,8 @@ textarea{
     object-fit: cover;
 }
 .modaltext{
+    width: 50%;
+    height: 90%;
     padding-left: 40px;
     padding-top: 20px;
     padding-right: 20px;
@@ -570,5 +573,7 @@ textarea{
     
     text-align: center;
 }
-
+.p{
+    font-size: 18px;
+}
 
